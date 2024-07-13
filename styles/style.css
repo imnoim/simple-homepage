@@ -118,3 +118,45 @@ ul > li > a {
 .hero-container-img img {
     width: 100%;
 }
+
+/* mobile devices */
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        padding: 10px 25px;
+    }
+    ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    ul > li > a {
+        font-size: 14px;
+    }
+    .brand img {
+        width: 80%;
+    }
+    .hero-container {
+        width: 100%;
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 0px 25px;
+        border: 2px solid red;
+    }
+    .hero-container-content, .hero-container-img {
+        width: 100%;
+    }
+    .btn-primary {
+        padding: 10px 30px;
+    }
+    .hero-container-content .emoji, .hero-description {
+        font-size: 14px;
+    }
+    .hero-container-content h1 {
+        font-size: 2.9rem;
+    }
+    .container-bottom span {
+        font-size: 12px;
+    }
+
+}
