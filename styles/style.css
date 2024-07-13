@@ -41,10 +41,80 @@ ul > li > a {
     color: #111729;
 }
 
-.login button {
+.btn-primary {
     border: none;
-    padding: 10px 35px;
+    padding: 15px 35px;
     font-weight: 700;
     background-color: #2A4DD0;
     color: #fff;
+    border-radius: 8px;
+}
+
+/* hero container styles */
+
+.hero-container {
+    max-width: 1392px;
+    margin: 0 auto;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.hero-container-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-container-content .emoji {
+    font-weight: 700;
+    color: #111729;
+}
+
+.hero-container-content h1 {
+    font-weight: 700;
+    color: #223344;
+    font-size: 3.5em;
+}
+
+.hero-container-content .hero-description {
+    color: #909193;
+}
+
+.hero-buttons .underline {
+    font-weight: 700;
+    color: #2A4DD0;
+    text-decoration-thickness: 2px;
+    font-size: 14px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.container-bottom {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-bottom span {
+    color: #909193;
+}
+
+.bottom-left, .bottom-right {
+    display: flex;
+}
+
+.hero-container-img {
+    width: 50%;
+}
+
+.hero-container-img img {
+    width: 100%;
 }
